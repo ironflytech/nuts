@@ -42,7 +42,12 @@ var myNuts = nuts.Nuts({
     // The maximum version to support in the RELEASES.
     // For multi-environment deploys where each environment may be limited to a certain version of the app.
     maxVersion: process.env.NUTS_MAX_VERSION,
-    proxyAssets: !Boolean(process.env.DONT_PROXY_ASSETS)
+    proxyAssets: !Boolean(process.env.DONT_PROXY_ASSETS),
+    backends: {
+        filesystem: {
+            path: process.env.NUTS_FILE_PATH
+        }
+    }
 });
 
 // Control access to API
