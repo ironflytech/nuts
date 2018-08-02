@@ -6,8 +6,6 @@
   "homepage": "https://github.com/ironflytech/nuts",
   "license": "Apache-2.0",
   "dependencies": {
-    "@ironfly/lru-diskcache": "git://github.com/ironflytech/lru-diskcache.git#master",
-    "@ironfly/octocat": "git://github.com/ironflytech/octocat.js.git#master",
     "analytics-node": "2.1.1",
     "aws-sdk": "^2.6.6",
     "basic-auth": "1.0.3",
@@ -18,6 +16,8 @@
     "feed": "^0.3.0",
     "github-webhook-handler": "0.5.0",
     "lodash": "^4.17.10",
+    "lru-diskcache": "1.1.1",
+    "octocat": "1.2.1",
     "q": "1.2.0",
     "request": "2.87.0",
     "semver": "5.0.1",
