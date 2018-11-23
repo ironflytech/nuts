@@ -1,4 +1,5 @@
 # Nuts
+Modified to fix audit issues and also with AWS and Filesystem based stores for releases.
 
 Nuts is a simple (and smart) application to serve desktop-application releases.
 
